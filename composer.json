@@ -1,0 +1,46 @@
+{
+  "name": "accuracode/yii2-stream-target",
+  "description": "A Yii 2 log target for system I/O streams",
+  "keywords": [
+    "yii2",
+    "log",
+    "target",
+    "stream",
+    "stdout",
+    "stderr"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergei Lysogor",
+      "email": "me@serhioli.net",
+      "role": "Author"
+    },
+    {
+      "name": "Michael Härtl",
+      "email": "haertl.mike@gmail.com",
+      "role": "Author of original package",
+      "homepage": "https://github.com/codemix/yii2-streamlog"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "yiisoft/yii2": "^2.0.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "accuracode\\yii2\\log\\stream\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
